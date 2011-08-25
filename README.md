@@ -4,7 +4,7 @@ A simple project which aims to detect, from an external source (webcam or other)
 
 This project has been developed for the automation of testing activities.
 
-You can find the full project article into my blog http://www.bitstorm.it/blog/en/2011/05/jai-color-pattern-recognition/.
+You can find the full project article into my blog(http://www.bitstorm.it/blog/en/2011/05/jai-color-pattern-recognition/).
 
 ### Details
 
