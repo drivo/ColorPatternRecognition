@@ -1,6 +1,6 @@
 ### Introduction
 
-A simple project which aims to detect, from an external source (webcam or other), the status (in percentage) of a progress bar diplayed on a screen (e.g. smartphone).
+A simple Java project which aims to detect, from an external source (webcam or other), the status (in percentage) of a progress bar diplayed on a screen (e.g. smartphone).
 
 This project has been developed for the automation of testing activities.
 
