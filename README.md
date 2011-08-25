@@ -14,18 +14,18 @@ The following diagram shows you how the project works. Basically, starting from 
 
 ### How to install
 
-The project is based on Maven project manager. All subsequent maven commands shall be run from the directory containing the project (where the pom.xml file is located):
+The project needs [Apache Maven](http://maven.apache.org/). All subsequent maven commands shall be run from the directory containing the project (where the pom.xml file is located):
 
 If you desire to compile and try the recognitor, you should type the command:
 
 ``` bash
-    # mvn clean install 
+    $ mvn clean install 
 ```
 
 If you desire to run a demonstration test, you should type the command:
 
 ``` bash
-    # mvn test 
+    $ mvn test 
 ```
 
 ### How to use
@@ -35,7 +35,7 @@ Check the source code SimplePatternTest.java which contains a real case used to 
 The still testing images was derived from an AVI movie with FFMPEG tool. Once installed FFMPEG, the command used to extract single frames from a video file is the following:
 
 ``` bash
-    # ffmpeg -i mymovie.avi -r 5 -f image2 frame_%3d.png 
+    $ ffmpeg -i mymovie.avi -r 5 -f image2 frame_%3d.png 
 ```
 
 This last command will generate from the "mymovie.avi" movie a sequence of PNG images called in sequence frame_001.png, frame_002.png and so on. 
